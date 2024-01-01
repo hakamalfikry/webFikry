@@ -97,8 +97,8 @@
 						</div>
                         <table class="table table-bordered table-striped m-4">
                             
-                                {% for berita in berita %}
-                              <tr>
+                            {% for berita in berita %}
+                            <tr>
                               
                                 <th style="text-align: center; font-size: 50px;" colspan="2">{{ berita.nama_berita }}</th>
                               </tr>
@@ -106,7 +106,7 @@
                             
 							<tr style="padding: 40px ; ">
 								<td bgcolor='white' width="70%" style="text-align: justify; font-size: medium; ">{{ berita.text_berita }} </td>
-								<td><img src="{{ berita.gambar_berita }}" alt="tt"> </td>
+								
 							</tr>
                           {% endfor %}
                           </table>

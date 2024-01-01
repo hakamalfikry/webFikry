@@ -34,7 +34,7 @@ def addBerita(request):
         if form.is_valid():
             new_berita = FormBerita(request.POST)
             new_berita.save()
-            messages.success(request, 'Sukses Menambah Menu')
+            messages.success(request, 'Sukses Menambah Berita')
             return redirect('berita')
     else:
         form = FormBerita()

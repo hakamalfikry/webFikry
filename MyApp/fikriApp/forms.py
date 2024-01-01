@@ -9,10 +9,10 @@ class FormBerita(ModelForm):
 
     class Meta:
         model = Berita
-        fields = ('nama_berita', 'text_berita', 'gambar_berita')
+        fields = ('nama_berita', 'text_berita')
         labels = {
             'nama_berita': ('Nama Berita'),
             'text_berita': ('Text Berita'),
-            'gambar_berita': ('Gambar Berita'),
+            
            
             }
